@@ -8,7 +8,42 @@
     object-fit: cover;
 }
 
-
+/* Header */
+.header-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 .header{
     background-color: #ffca11;
+    display: flex;
+    height: 100px;
+    justify-content: center;
 }
+
+.logo{
+    width: 80px;
+    height: 80px;
+}
+.nav-link1{
+    margin-right: 100px;
+    font-size: 20px;
+}.nav-link2{
+     margin-left: 100px;
+     font-size: 20px;
+ }
+
+.header-div a{
+    padding: 0px 20px;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+/* Как делать на кнопке переливание цветов */
+/*.header-div a:hover{*/
+/*    color: #F0A410;*/
+/*    transition: 0.5s all ease;*/
+/*    text-decoration: none;*/
+/*}*/
+
