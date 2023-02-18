@@ -98,3 +98,37 @@ main{
        height: 110%;
        padding-top: 50px;
    }
+
+
+/*cart  */
+
+.cart_yandex{
+    background-color: #fff;
+    margin: 400px 5%;
+    width: 90%;
+    height: 800px;
+    display: grid;
+    grid-template-areas:
+    "g c"
+    "g c";
+    grid-template-columns:  5fr 5fr;
+    border: solid 2px black;
+    opacity: .90;
+    border-radius: 50px;
+}
+
+.curt_img{
+    grid-area: c;
+    padding-top: 50px;
+}
+.message_curt_info{
+    grid-area: g;
+    padding: 250px 5% 20px 5%;
+}
+
+.message_curt_info h1{
+    font-size: 25px;
+}
+
+
+
