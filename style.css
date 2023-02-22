@@ -19,7 +19,7 @@ body{
     justify-content: space-between;
 }
 .header{
-    background-color: #ffca11;
+    background-color: #ffd83a;
     display: flex;
     height: 100px;
     justify-content: center;
@@ -131,4 +131,51 @@ main{
 }
 
 
+/*news*/
 
+.giv_new-information{
+    background-color: #fff;
+    border-radius: 50px;
+    border: 2px solid black;
+    height: 800px;
+    width: 1500px;
+
+}
+
+.img-person-leontiy{
+    width: 600px;
+    height: 400px;
+}
+
+
+.posts a{
+    font-size: 25px;
+}
+
+.news_information{
+    margin: 0px 200px;
+}
+
+.posts {
+    display: grid;
+    grid-template-areas:
+    "p l"
+    "p l";
+    grid-template-columns: 1fr 1fr;
+}
+.post-1{
+    margin: 100px 50px 100px 50px;
+    width: 600px;
+    grid-area: p;
+}
+
+.post_2{
+    grid-area: l;
+    margin: 100px 50px 100px 50px;
+    width: 600px;
+}
+
+.img-freebet{
+    width: 600px;
+    height: 400px;
+}
