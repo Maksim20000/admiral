@@ -179,3 +179,29 @@ main{
     width: 600px;
     height: 400px;
 }
+
+.about-me{
+    margin: 500PX 100PX ;
+    width: 90%;
+    background-color: #fff;
+    border: solid black 2px;
+    border-radius: 50px;
+    height: 800px;
+    display: grid;
+
+    grid-template-areas:
+    "o s"
+    "o s";
+    grid-template-columns: 1fr 1fr;
+}
+
+.left-about-me{
+    width: 800px;
+    padding: 250px 100px ;
+    grid-area: o;
+}
+
+.right-about-me{
+    grid-area: s;
+    margin: 100px 0px;
+}
