@@ -204,4 +204,13 @@ main{
 .right-about-me{
     grid-area: s;
     margin: 100px 0px;
+
+}
+.right-about-me img{
+    width: 600px;
+    height: 550px;
+}
+
+.cloth{
+
 }
