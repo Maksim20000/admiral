@@ -181,7 +181,7 @@ main{
 }
 
 .about-me{
-    margin: 500PX 100PX ;
+    margin: 500PX 90PX ;
     width: 90%;
     background-color: #fff;
     border: solid black 2px;
@@ -204,13 +204,60 @@ main{
 .right-about-me{
     grid-area: s;
     margin: 100px 0px;
-
 }
 .right-about-me img{
     width: 600px;
     height: 550px;
+    border-radius: 50px;
+
 }
 
 .cloth{
+    background-color: #fff;
+    border-radius: 50px;
+    border: 2px solid black;
+    height: 800px;
+    display: flex;
+    width: 90%;
+    margin: 500px 90px;
 
 }
+
+.t-shorts{
+    justify-content: center;
+
+}
+
+.merch{
+    padding: 50px 750px;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.merches img{
+    width: 200px;
+    margin: 50px 35px;
+    height: 300px;
+    border-radius: 50px;
+    border: solid 2px black
+}
+
+.aHrefMerch{
+    background: #ffd83a;
+    width: 1000px;
+    display: flex;
+    height: 50px;
+    border-radius: 50px;
+    border: solid black 2px;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    margin: 70px 350px;
+
+}
+.aHrefMerch a{
+    font-size: 25px;
+    text-decoration: none;
+    color: #000;
+}
+
