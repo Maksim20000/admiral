@@ -267,11 +267,12 @@ main{
 }
 
 footer{
-    width: 100%;
+    width: 90%;
     opacity: .90;
     height: 200px;
     background-color: #304146;
     padding: 50px;
+    margin: 0px 0px 0px 40px;
     color: white;
     display: grid;
     border-radius: 50px;
