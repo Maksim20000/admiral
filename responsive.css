@@ -1,3 +1,37 @@
-@media screen and (max-width:1400px){
+@media screen and (max-width: 1700px){
+    .merches img {
+        margin: 50px 20px;
+    }
+    .merches {
+        margin-left: 100px;
+    }
+    .left-about-me {
+        width: 627px;
+    }
+    .posts {
+        margin-left: 2%;
+    }
+}
+
+@media screen and (max-width: 1600px){
+    .right-about-me img {
+        width: 90%;
+        height: 500px;
+        border-radius: 50px;
+    }
+    .right-about-me {
+        grid-area: s;
+        margin: 150px 0px;
+    }
+    .news_information {
+        margin: 0px 4%;
+    }
+    .name-cul {
+        padding: 10px 532px;
+    }
+
+}
+
+@media screen and (max-width: 1500px){
 
 }
