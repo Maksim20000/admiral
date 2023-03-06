@@ -1,15 +1,12 @@
 @media screen and (max-width: 1700px){
-    .merches img {
-        margin: 50px 20px;
-    }
     .merches {
         margin-left: 100px;
     }
     .left-about-me {
         width: 627px;
     }
-    .posts {
-        margin-left: 2%;
+    .merches img {
+        margin: 50px 20px;
     }
 }
 
@@ -29,6 +26,33 @@
     .name-cul {
         padding: 10px 532px;
     }
+    .giv_new-information {
+        width: 1400px;
+    }
+    .t-shorts {
+        width: 98%;
+    }
+    .merches img {
+        margin: 50px 10px;
+    }
+    #video{
+        display: none;
+    }
+
+    body{
+        background-image: url(./admiral-ohoto-bg.jpg);
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
+    main{
+        background-image: url(./img/bg-calendar.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 810px;
+    }
+
 
 }
 

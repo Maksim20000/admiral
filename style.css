@@ -221,7 +221,7 @@ main{
 
 }
 
-.cloth{
+.cloth {
     background-color: #fff;
     border-radius: 50px;
     border: 2px solid black;
@@ -229,8 +229,7 @@ main{
     opacity: .90;
     display: flex;
     width: 100%;
-    margin: 500px 90px;
-
+    margin: 500px 0%;
 }
 
 .t-shorts{
