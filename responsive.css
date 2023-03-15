@@ -16,12 +16,13 @@
         height: 500px;
         border-radius: 50px;
     }
+
+    .news_information {
+        margin: 0px 8%;
+    }
     .right-about-me {
         grid-area: s;
         margin: 150px 0px;
-    }
-    .news_information {
-        margin: 0px 4%;
     }
     .name-cul {
         padding: 10px 532px;
